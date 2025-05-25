@@ -8,15 +8,18 @@ header {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .logo {
   max-height: 200px;
 }
+
 @media (max-width: 1024px) {
   header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
+
   .logo {
     order: 0;
     max-height: 120px;

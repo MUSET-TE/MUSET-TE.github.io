@@ -10,6 +10,7 @@
   position: relative;
   z-index: 1001;
 }
+
 .menu-toggle span {
   background: #292929;
   height: 3px;
@@ -18,15 +19,19 @@
   border-radius: 2px;
   transition: 0.4s;
 }
+
 .menu-toggle.open span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
+
 .menu-toggle.open span:nth-child(2) {
   opacity: 0;
 }
+
 .menu-toggle.open span:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -5px);
 }
+
 @media (max-width: 1024px) {
   .menu-toggle {
     display: flex;

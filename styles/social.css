@@ -1,9 +1,19 @@
-
 .social-icons a {
   margin: 0 8px;
   color: #292929;
   font-size: 1.2rem;
 }
+
 .social-icons a:hover {
   color: #0072b1;
+}
+
+.social-icons i {
+  vertical-align: middle;
+  font-style: normal;
+}
+
+/* to eliminate weird '_' after some icons */
+a:hover, a:focus, a:active, a:visited, a:link{
+  text-decoration: none;
 }
