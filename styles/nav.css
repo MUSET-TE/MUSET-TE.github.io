@@ -1,0 +1,21 @@
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: #292929;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: xx-large;
+}
+@media (max-width: 1024px) {
+  nav {
+    order: 2;
+    width: 100%;
+    flex-direction: column;
+  }
+  nav.active {
+    display: flex;
+  }
+}

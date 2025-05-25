@@ -1,0 +1,22 @@
+
+.deliverable-category {
+  margin-bottom: 2rem;
+}
+.card {
+  background: #f2f2f2;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-left: 4px solid #292929;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.card a {
+  text-decoration: none;
+  color: #292929;
+  font-weight: bold;
+}
+.card em {
+  font-style: italic;
+}
+.card strong {
+  font-weight: 600;
+}

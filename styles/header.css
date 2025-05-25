@@ -1,0 +1,25 @@
+
+header {
+  background: #D8D8D8;
+  color: #292929;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo {
+  max-height: 200px;
+}
+@media (max-width: 1024px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    order: 0;
+    max-height: 120px;
+    width: auto;
+  }
+}

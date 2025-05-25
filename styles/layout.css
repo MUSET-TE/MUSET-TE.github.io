@@ -1,0 +1,15 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+section {
+  padding: 2rem;
+}
+footer {
+  background: #D8D8D8;
+  color: #292929;
+  text-align: center;
+  padding: 1rem;
+}

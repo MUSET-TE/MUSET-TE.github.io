@@ -1,0 +1,35 @@
+@media (max-width: 1024px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #D8D8D8;
+    padding: 1rem 0;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1025px) {
+  .menu-toggle {
+    display: none !important;
+  }
+
+  nav {
+    display: flex !important;
+    flex-direction: row;
+    width: auto;
+    background: none;
+    padding: 0;
+  }
+}
