@@ -2,322 +2,337 @@
 
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>MUSET-TE</title>
+        <title>MUSET-TE</title>
 
-    <link rel="stylesheet" href="styles/layout.css"/>
-    <link rel="stylesheet" href="styles/header.css"/>
-    <link rel="stylesheet" href="styles/nav.css"/>
-    <link rel="stylesheet" href="styles/menu.css"/>
-    <link rel="stylesheet" href="styles/cards.css"/>
-    <link rel="stylesheet" href="styles/team.css"/>
-    <link rel="stylesheet" href="styles/social.css"/>
-    <link rel="stylesheet" href="styles/responsive.css"/>
+        <link rel="stylesheet" href="styles/layout.css"/>
+        <link rel="stylesheet" href="styles/header.css"/>
+        <link rel="stylesheet" href="styles/nav.css"/>
+        <link rel="stylesheet" href="styles/menu.css"/>
+        <link rel="stylesheet" href="styles/cards.css"/>
+        <link rel="stylesheet" href="styles/team.css"/>
+        <link rel="stylesheet" href="styles/social.css"/>
+        <link rel="stylesheet" href="styles/responsive.css"/>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const toggle = document.querySelector(".menu-toggle");
-            const nav = document.querySelector("nav");
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const toggle = document.querySelector(".menu-toggle");
+                const nav = document.querySelector("nav");
 
-            toggle.addEventListener("click", () => {
-                toggle.classList.toggle("open");
-                nav.classList.toggle("active");
+                toggle.addEventListener("click", () => {
+                    toggle.classList.toggle("open");
+                    nav.classList.toggle("active");
+                });
             });
-        });
-    </script>
+        </script>
 
-    <!-- remove all styling if image failed to load -->
-    <!--    <script>-->
-    <!--        document.addEventListener("DOMContentLoaded", function () {-->
-    <!--            document.querySelectorAll(".team-member img").forEach(img => {-->
-    <!--                if (!img.complete || img.naturalWidth === 0) {-->
-    <!--                    img.setAttribute("onerror-applied", "true");-->
-    <!--                }-->
+        <!-- remove all styling if image failed to load -->
+        <!--    <script>-->
+        <!--        document.addEventListener("DOMContentLoaded", function () {-->
+        <!--            document.querySelectorAll(".team-member img").forEach(img => {-->
+        <!--                if (!img.complete || img.naturalWidth === 0) {-->
+        <!--                    img.setAttribute("onerror-applied", "true");-->
+        <!--                }-->
 
-    <!--                img.onerror = () => {-->
-    <!--                    img.setAttribute("onerror-applied", "true");-->
-    <!--                };-->
-    <!--            });-->
-    <!--        });-->
-    <!--    </script>-->
-</head>
+        <!--                img.onerror = () => {-->
+        <!--                    img.setAttribute("onerror-applied", "true");-->
+        <!--                };-->
+        <!--            });-->
+        <!--        });-->
+        <!--    </script>-->
+    </head>
 
-<body>
-<header>
-    <img src="assets/images/muset-te-logo.png" alt="MUSET-TE Logo" class="logo"/>
-    <div class="menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#team">Team</a>
-        <a href="#deliverables">Deliverables</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
+    <body>
+        <header>
+            <img src="assets/images/muset-te-logo.png" alt="MUSET-TE Logo" class="logo"/>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#team">Team</a>
+                <a href="#deliverables">Deliverables</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
 
-<section id="about">
-    <h2>About the Project</h2>
-    <p>
-        MUSET-TE is a
-        <a href="https://uefiscdi.gov.ro/proiecte-de-cercetare-pentru-stimularea-tinerelor-echipe-independente-te" target="_blank">
-            young independent teams research project
-        </a>
-        dedicated to Modelling Uncertainty and Spatial Effects in Time.
-    </p>
-</section>
-
-<section id="team">
-    <h2>Team Members</h2>
-    <div class="team-grid">
-
-        <div class="team-member">
-            <img src="assets/images/team/Codruta-Mare.jpg" alt="Codruța Mare"/>
-            <h3>Codruța Mare</h3>
+        <section id="about">
+            <h2>About the Project</h2>
             <p>
-                Codruța Mare is Prof. of Statistics and Econometrics at the Babes-Bolyai University, Cluj-Napoca, Romania.
-                She has been involved in several national and international projects, including MSCA projects or COST Actions.
-                Her interests are related to Statistics, Econometrics and Spatial Econometrics applied for daily life,
-                along with forecasting techniques.
+                MUSET-TE is a
+                <a href="https://uefiscdi.gov.ro/proiecte-de-cercetare-pentru-stimularea-tinerelor-echipe-independente-te" target="_blank">
+                    young independent teams research project
+                </a>
+                dedicated to Modelling Uncertainty and Spatial Effects in Time.
             </p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/codruta-mare-7b6273199/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://scholar.google.com/citations?user=xJBU4dcAAAAJ&hl=en" target="_blank">
-                    <i class="fas fa-graduation-cap"></i>
-                </a>
-                <a href="https://orcid.org/0000-0002-4920-7462" target="_blank">
-                    <i class="fab fa-orcid"></i>
-                </a>
-            </div>
-        </div>
+        </section>
 
-        <div class="team-member">
-            <img src="assets/images/team/Gabriela-Muresan.jpg" alt="Gabriela-Mihaela Mureșan"/>
-            <h3>Gabriela-Mihaela Mureșan</h3>
-            <p>
-                Gabriela-Mihaela Mureșan holds a PhD in Finance and is currently an Associate Professor in the
-                Department of Finance at the Faculty of Economics and Business Administration, Babeș-Bolyai University.
-                Her research interests span the fields of behavioral finance, economic psychology, insurance, and
-                financial analysis.
+        <section id="team">
+            <h2>Team Members</h2>
+            <div class="team-grid">
+
+                <div class="team-member">
+                    <img src="assets/images/team/Codruta-Mare.jpg" alt="Codruța Mare"/>
+                    <h3>Codruța Mare</h3>
+                    <p>
+                        Codruța Mare is Prof. of Statistics and Econometrics at the Babes-Bolyai University, Cluj-Napoca, Romania.
+                        She has been involved in several national and international projects, including MSCA projects or COST Actions.
+                        Her interests are related to Statistics, Econometrics and Spatial Econometrics applied for daily life,
+                        along with forecasting techniques.
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/codruta-mare-7b6273199/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=xJBU4dcAAAAJ&hl=en" target="_blank">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        <a href="https://orcid.org/0000-0002-4920-7462" target="_blank">
+                            <i class="fab fa-orcid"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="assets/images/team/Gabriela-Muresan.jpg" alt="Gabriela-Mihaela Mureșan"/>
+                    <h3>Gabriela-Mihaela Mureșan</h3>
+                    <p>
+                        Gabriela-Mihaela Mureșan holds a PhD in Finance and is currently an Associate Professor in the
+                        Department of Finance at the Faculty of Economics and Business Administration, Babeș-Bolyai University.
+                        Her research interests span the fields of behavioral finance, economic psychology, insurance, and
+                        financial analysis.
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/gabriela-mihaela-muresan-028229b5/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=I-LFypAAAAAJ&hl=en" target="_blank">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        <a href="https://orcid.org/0000-0001-6715-7406" target="_blank">
+                            <i class="fab fa-orcid"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="assets/images/team/Ioana-Beleiu.jpg" alt="Ioana Natalia Beleiu"/>
+                    <h3>Ioana Natalia Beleiu</h3>
+                    <p>TBA</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ioana-beleiu-7135aa354/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=5kZJsPUAAAAJ&hl=en" target="_blank">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        <a href="https://orcid.org/0000-0002-1400-3259" target="_blank">
+                            <i class="fab fa-orcid"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="assets/images/team/Mihai-Achim.jpg" alt="Mihai-Adrian Achim"/>
+                    <h3>Mihai-Adrian Achim</h3>
+                    <p>TBA</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/mihai-achim-a4333b244/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=-4HnmccAAAAJ&hl=en" target="_blank">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        <a href="https://orcid.org/0009-0000-2661-2740" target="_blank">
+                            <i class="fab fa-orcid"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="assets/images/team/Stefana-Belbe.jpeg" alt="Ștefana Belbe"/>
+                    <h3>Ștefana Belbe</h3>
+                    <p>
+                        Ștefana is a PhD candidate at Babeș-Bolyai University, researching Space-Time Predictive Econometrics.
+                        She teaches at Bachelor and Master levels and works as a Data Science Consultant at Endava,
+                        with expertise in NLP, LLMs, (web)GIS, geospatial analysis, predictive modeling, spatial statistics,
+                        and econometrics using ML and GenAI.
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/stefana-belbe-cioban-650bb810b" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=gV812hMAAAAJ&hl=en" target="_blank">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        <a href="https://orcid.org/0000-0002-1838-620X" target="_blank">
+                            <i class="fab fa-orcid"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="deliverables">
+            <h2>Deliverables</h2>
+
+            <div class="deliverable-category">
+                <h3>Conference Participations</h3>
+
+                <div class="card">
+                    Mureșan, G., Sabadâș, G. (May 9-10, 2025).
+                    <em>Literature Review of Uncertainty Risk in Finance.</em>
+                    International Yildirim Bayezid Scientific Research and Innovation Symposium-I.
+                    <a href="https://www.iksadkongre.com/bursa" target="_blank">
+                        https://www.iksadkongre.com/bursa
+                    </a>
+                </div>
+
+                <div class="card">Belbe, Ș., Gere, I., Mare, C. (May 2-6, 2025).
+                    <em>The Impact of Spatial Aggregation upon unveiling Hidden Spatial Autocorrelation.</em>
+                    The 19th World Conference of the Spatial Econometrics Association & The Spatial Econometrics Advanced Institute.
+                    <a href="https://sites.google.com/site/jefconference/" target="_blank">
+                        https://sites.google.com/site/jefconference/
+                    </a>
+                </div>
+
+                <div class="card">
+                    Lazăr, I., Danci, A., Mureșan, G. (March 20-21, 2025).
+                    <em>Is time for a financial EKG - behavior and performance under conditions of uncertainty.</em>
+                    Conferința Europeană a Serviciilor Financiare ECFS 2025, Brașov, Romania.
+                    <a href="https://www.isf.ro/ro/conferinta-europeana-serviciilor-financiare-ecfs-2025-tranzitia-digitala-serviciile-financiare" target="_blank">
+                        https://www.isfin.ro
+                    </a>
+                </div>
+
+                <div class="card">
+                    Lazăr, I., Danci, A., Mureșan, G. (March 15-16, 2025).
+                    <em>The Financial EKG of an Entity. Behavior and Performance under Conditions of Uncertainty.</em>
+                    IBANESS Congresses Series on Economics, Business and Management, Plovdiv, Bulgaria.
+                    <a href="https://www.ibaness.org/index.php" target="_blank">
+                        https://www.ibaness.org/index.php
+                    </a>
+                </div>
+
+                <div class="card">
+                    Lazăr, I., Danci, A., Mureșan, G. (March 15-16, 2025).
+                    <em>The Relationship Between Financial Manipulation and The Bankruptcy Risk of a Company.</em>
+                    IBANESS Congresses Series on Economics, Business and Management, Plovdiv, Bulgaria.
+                    <a href="https://www.ibaness.org/index.php" target="_blank">
+                        https://www.ibaness.org/index.php
+                    </a>
+                </div>
+
+                <div class="card">
+                    Mureșan, G., Colța, A., Sabadâș, G. (March 15-16, 2025).
+                    <em>Literature Review of Uncertainty Risk in Finance.</em>
+                    IBANESS Congresses Series on Economics, Business and Management, Plovdiv, Bulgaria.
+                    <a href="https://www.ibaness.org/index.php" target="_blank">
+                        https://www.ibaness.org/index.php
+                    </a>
+                </div>
+                    <div class="card">
+                    Lazăr, I., Danci, A., Mureșan, G. (February 5-9, 2025).
+                    <em>The Financial EKG of an Entity. Behavior and Performance under Conditions of Uncertainty.</em>
+                    11th International Paris Congress on Social Sciences & Humanities, Paris, France.
+                    <a href="https://web.archive.org/web/20241203054408/https://www.iksadparis.org/social" target="_blank">
+                        https://www.iksadparis.org/social
+                    </a>
+                </div>
+
+                <div class="card">
+                    Lazăr, I., Danci, A., Mureșan, G. (February 5-9, 2025).
+                    <em>The Relationship Between Financial Manipulation and The Bankruptcy Risk of a Company.</em>
+                    11th International Paris Congress on Social Sciences Humanities, Paris, France.
+                    <a href="https://web.archive.org/web/20241203054408/https://www.iksadparis.org/social" target="_blank">
+                        https://www.iksadparis.org/social
+                    </a>
+                </div>
+
+                <div class="card">
+                    Mureșan, G. M., Colța, A. (February 5-9, 2025).
+                    <em>A Bibliometric Analysis Of Uncertainty Risk In Finance.</em>
+                    11th International Paris Congress on Social Sciences Humanities, Paris, France.
+                    <a href="https://web.archive.org/web/20241203054408/https://www.iksadparis.org/social" target="_blank">
+                        https://www.iksadparis.org/social
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="deliverable-category">
+                <h3>Published Articles</h3>
+                <div class="card">
+                    Danci, A. R., Lazăr, I. A., Mureșan, G. M. (2025).
+                    <em>Financial analysis in the era of uncertainty: a comprehensive examination.</em>
+                    <i>Digital Finance, </i>
+                    1–25.
+                    <a href="https://link.springer.com/article/10.1007/s42521-025-00136-5" target="_blank">
+                        https://link.springer.com/article/10.1007/s42521-025-00136-5
+                    </a>
+                </div>
+            </div>
+
+            <div class="deliverable-category">
+                <h3>GitHub Projects</h3>
+                <div class="card">
+                    <a href="https://github.com/stefanacioban/ai_in_crowdfunding">AI in Crowdfunding</a>
+                </div>
+                <div class="card">
+                    <a href="https://github.com/cost19130/fraud_prevention_crowdfunding_p2p_ico">
+                        Fraud Prevention Crowdfunding
+                    </a>
+                </div>
+            </div>
+
+            <div class="deliverable-category">
+                <h3>Podcasts</h3>
+                <div class="card">
+                    <a href="link-to-podcast">To be added upon participation</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 MUSET-TE Project Team</p>
+            <p style="font-size: 0.9em;">
+                This page was supported by a grant of the Ministry of Research, Innovation and Digitization, CNS-UEFISCDI,
+                project number PN-IV-P2-2.1-TE-2023-1317, within PNCDI IV.
             </p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/gabriela-mihaela-muresan-028229b5/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://scholar.google.com/citations?hl=en&user=I-LFypAAAAAJ" target="_blank">
-                    <i class="fas fa-graduation-cap"></i>
-                </a>
-                <a href="https://orcid.org/0000-0001-6715-7406" target="_blank">
-                    <i class="fab fa-orcid"></i>
-                </a>
-            </div>
-        </div>
-
-        <div class="team-member">
-            <img src="assets/images/team/Ioana-Beleiu.jpg" alt="Ioana Natalia Beleiu"/>
-            <h3>Ioana Natalia Beleiu</h3>
-            <p>TBA</p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/ioana-beleiu-7135aa354/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://scholar.google.com/citations?hl=en&user=5kZJsPUAAAAJ" target="_blank">
-                    <i class="fas fa-graduation-cap"></i>
-                </a>
-                <a href="https://orcid.org/0000-0002-1400-3259" target="_blank">
-                    <i class="fab fa-orcid"></i>
-                </a>
-            </div>
-        </div>
-
-        <div class="team-member">
-            <img src="assets/images/team/Mihai-Achim.jpg" alt="Mihai-Adrian Achim"/>
-            <h3>Mihai-Adrian Achim</h3>
-            <p>TBA</p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/mihai-achim-a4333b244/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://scholar.google.com/citations?user=-4HnmccAAAAJ&hl=en" target="_blank">
-                    <i class="fas fa-graduation-cap"></i>
-                </a>
-                <a href="https://orcid.org/0009-0000-2661-2740" target="_blank">
-                    <i class="fab fa-orcid"></i>
-                </a>
-            </div>
-        </div>
-
-        <div class="team-member">
-            <img src="assets/images/team/Stefana-Belbe.jpeg" alt="Ștefana Belbe"/>
-            <h3>Ștefana Belbe</h3>
-            <p>
-                Ștefana is a PhD candidate at Babeș-Bolyai University, researching Space-Time Predictive Econometrics.
-                She teaches at Bachelor and Master levels and works as a Data Science Consultant at Endava,
-                with expertise in NLP, LLMs, (web)GIS, geospatial analysis, predictive modeling, spatial statistics,
-                and econometrics using ML and GenAI.
+            <p style="font-size: 0.9em;">
+                ROMANIA
             </p>
+            <p><strong>Follow us</strong></p>
             <div class="social-icons">
-                <a href="https://www.linkedin.com/in/stefana-belbe-cioban-650bb810b" target="_blank">
-                    <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/company/muset-research-team" target="_blank">
+                    <i class="fab fa-linkedin fa-2x"></i>
                 </a>
-                <a href="https://scholar.google.com/citations?user=gV812hMAAAAJ&hl=en" target="_blank">
-                    <i class="fas fa-graduation-cap"></i>
-                </a>
-                <a href="https://orcid.org/0000-0002-1838-620X" target="_blank">
-                    <i class="fab fa-orcid"></i>
+                <a href="https://www.facebook.com/profile.php?id=61572720399792" target="_blank">
+                    <i class="fab fa-facebook fa-2x"></i>
                 </a>
             </div>
-        </div>
-    </div>
-</section>
-
-<section id="deliverables">
-    <h2>Deliverables</h2>
-
-    <div class="deliverable-category">
-        <h3>Conference Participations</h3>
-
-        <div class="card">
-            Mureșan, G., Sabadâș, G. (May 9-10, 2025).
-            <em>Literature Review of Uncertainty Risk in Finance.</em>
-            International Yildirim Bayezid Scientific Research and Innovation Symposium-I.
-            <a href="https://www.iksadkongre.com/bursa" target="_blank">
-                https://www.iksadkongre.com/bursa
-            </a>
-        </div>
-
-        <div class="card">Belbe, Ș., Gere, I., Mare, C. (May 2-6, 2025).
-            <em>The Impact of Spatial Aggregation upon unveiling Hidden Spatial Autocorrelation.</em>
-            The 19th World Conference of the Spatial Econometrics Association & The Spatial Econometrics Advanced Institute.
-            <a href="https://sites.google.com/site/jefconference/" target="_blank">
-                https://sites.google.com/site/jefconference/
-            </a>
-        </div>
-
-        <div class="card">
-            Lazăr, I., Danci, A., Mureșan, G. (March 20-21, 2025).
-            <em>Is time for a financial EKG - behavior and performance under conditions of uncertainty.</em>
-            Conferința Europeană a Serviciilor Financiare ECFS 2025, Brașov, Romania.
-            <a href="https://www.isf.ro/ro/conferinta-europeana-serviciilor-financiare-ecfs-2025-tranzitia-digitala-serviciile-financiare" target="_blank">
-                https://www.isfin.ro
-            </a>
-        </div>
-
-        <div class="card">
-            Lazăr, I., Danci, A., Mureșan, G. (March 15-16, 2025).
-            <em>The Financial EKG of an Entity. Behavior and Performance under Conditions of Uncertainty.</em>
-            IBANESS Congresses Series on Economics, Business and Management, Plovdiv, Bulgaria.
-            <a href="https://www.ibaness.org/index.php" target="_blank">
-                https://www.ibaness.org/index.php
-            </a>
-        </div>
-
-        <div class="card">
-            Lazăr, I., Danci, A., Mureșan, G. (March 15-16, 2025).
-            <em>The Relationship Between Financial Manipulation and The Bankruptcy Risk of a Company.</em>
-            IBANESS Congresses Series on Economics, Business and Management, Plovdiv, Bulgaria.
-            <a href="https://www.ibaness.org/index.php" target="_blank">
-                https://www.ibaness.org/index.php
-            </a>
-        </div>
-
-        <div class="card">
-            Mureșan, G., Colța, A., Sabadâș, G. (March 15-16, 2025).
-            <em>Literature Review of Uncertainty Risk in Finance.</em>
-            IBANESS Congresses Series on Economics, Business and Management, Plovdiv, Bulgaria.
-            <a href="https://www.ibaness.org/index.php" target="_blank">
-                https://www.ibaness.org/index.php
-            </a>
-        </div>
-            <div class="card">
-            Lazăr, I., Danci, A., Mureșan, G. (February 5-9, 2025).
-            <em>The Financial EKG of an Entity. Behavior and Performance under Conditions of Uncertainty.</em>
-            11th International Paris Congress on Social Sciences & Humanities, Paris, France.
-            <a href="https://web.archive.org/web/20241203054408/https://www.iksadparis.org/social" target="_blank">
-                https://www.iksadparis.org/social
-            </a>
-        </div>
-
-        <div class="card">
-            Lazăr, I., Danci, A., Mureșan, G. (February 5-9, 2025).
-            <em>The Relationship Between Financial Manipulation and The Bankruptcy Risk of a Company.</em>
-            11th International Paris Congress on Social Sciences Humanities, Paris, France.
-            <a href="https://web.archive.org/web/20241203054408/https://www.iksadparis.org/social" target="_blank">
-                https://www.iksadparis.org/social
-            </a>
-        </div>
-
-        <div class="card">
-            Mureșan, G. M., Colța, A. (February 5-9, 2025).
-            <em>A Bibliometric Analysis Of Uncertainty Risk In Finance.</em>
-            11th International Paris Congress on Social Sciences Humanities, Paris, France.
-            <a href="https://web.archive.org/web/20241203054408/https://www.iksadparis.org/social" target="_blank">
-                https://www.iksadparis.org/social
-            </a>
-        </div>
-
-    </div>
-
-    <div class="deliverable-category">
-        <h3>Published Articles</h3>
-        <div class="card">
-            Danci, A. R., Lazăr, I. A., Mureșan, G. M. (2025).
-            <em>Financial analysis in the era of uncertainty: a comprehensive examination.</em>
-            <i>Digital Finance, </i>
-            1–25.
-            <a href="https://link.springer.com/article/10.1007/s42521-025-00136-5" target="_blank">
-                https://link.springer.com/article/10.1007/s42521-025-00136-5
-            </a>
-        </div>
-    </div>
-
-    <div class="deliverable-category">
-        <h3>GitHub Projects</h3>
-        <div class="card">
-            <a href="https://github.com/stefanacioban/ai_in_crowdfunding">AI in Crowdfunding</a>
-        </div>
-        <div class="card">
-            <a href="https://github.com/cost19130/fraud_prevention_crowdfunding_p2p_ico">
-                Fraud Prevention Crowdfunding
-            </a>
-        </div>
-    </div>
-
-    <div class="deliverable-category">
-        <h3>Podcasts</h3>
-        <div class="card">
-            <a href="link-to-podcast">To be added upon participation</a>
-        </div>
-    </div>
-</section>
-
-<footer>
-    <p>&copy; 2025 MUSET-TE Project Team</p>
-    <p style="font-size: 0.9em;">
-        This page was supported by a grant of the Ministry of Research, Innovation and Digitization, CNS-UEFISCDI,
-        project number PN-IV-P2-2.1-TE-2023-1317, within PNCDI IV.
-    </p>
-    <p style="font-size: 0.9em;">
-        ROMANIA
-    </p>
-    <p><strong>Follow us</strong></p>
-    <div class="social-icons">
-        <a href="https://www.linkedin.com/company/muset-research-team" target="_blank">
-            <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a href="https://www.facebook.com/profile.php?id=61572720399792" target="_blank">
-            <i class="fab fa-facebook fa-2x"></i>
-        </a>
-    </div>
-</footer>
-</body>
+            <section id="disclaimer" style="text-align: center; font-size: 0.9em; padding: 0;">
+                <p>
+                    This website was generated with the assistance of
+                    <strong>ChatGPT</strong>
+                    , an AI developed by OpenAI, version
+                    <strong>GPT-4-turbo</strong>
+                    (as of 2024-06).
+                    <br>
+                    Content, layout structure, and code were developed collaboratively using ChatGPT's capabilities to
+                    generate HTML, CSS, and JavaScript for research project presentation.
+                    <br>
+                    For transparency and academic integrity, this contribution is acknowledged as part of
+                    the MUSET-TE project's web development workflow.
+                </p>
+            </section>
+        </footer>
+    </body>
 </html>
